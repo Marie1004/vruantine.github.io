@@ -1,0 +1,20 @@
+<<!DOCTYPE html>
+<html>
+  <head>
+    <title>Test von Marie</title>
+    <script src="https://aframe.io/releases/1.0.4/aframe.min.js"> </script>
+  </head>
+  <body>
+    <a-scene>
+      <a-sphere
+        animation="property: position; to: 35 10 -30; dur: 30000; easing: linear; loop: true"
+        position="5 10 30"
+        radius="1.25"
+        color="#EF2D5E"
+        opacity="0.4">
+      </a-sphere>
+      <a-sky src="https://cdn.glitch.com/b870d9ec-1139-44f9-b462-223e4a2c74e7%2Fsechelt.jpg?1490307995926" radius="30"></a-sky>
+      <a-circle position="0 -1 0" rotation="-90 0 0" radius="20" color="#7BC8A4" static-body></a-circle>
+    </a-scene>
+  </body>
+</html>
